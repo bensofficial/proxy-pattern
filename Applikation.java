@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.HashMap;
+
 public class Applikation {
     public static void main(String[] args) {
         HashMap<Integer, String> kunden = new HashMap<>();

@@ -1,4 +1,6 @@
-public class DatenbankProxy {
+import java.util.LinkedList;
+
+public class DatenbankProxy implements DatenbankInterface{
     private boolean eingeloggt;
     private LinkedList<Integer> mitarbeiter;
     private Kundendatenbank kundendatenbank;
@@ -27,6 +29,5 @@ public class DatenbankProxy {
     }
 
     // TODO: Wenn jemand eingeloggt ist, soll die entsprechende Methode in der Kundendatenbank aufgerufen werden.
-    public void kundenNameEinfügen(int kundennummer, String name) {
-    }
+    public void kundenNameEinfuegen(int kundennummer, String name) { }
 }

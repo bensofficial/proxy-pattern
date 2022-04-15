@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Kundendatenbank implements DatenbankInterface {
 
     private HashMap<Integer, String> kunden;
@@ -10,7 +12,7 @@ public class Kundendatenbank implements DatenbankInterface {
         return kunden.get(kundennummer);
     }
 
-    public void kundenNameEinfügen(int kundennummer, String name) {
+    public void kundenNameEinfuegen(int kundennummer, String name) {
         kunden.put(kundennummer, name);
     }
 }
