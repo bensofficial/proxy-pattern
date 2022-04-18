@@ -5,7 +5,7 @@ public class DatenbankProxy implements DatenbankInterface{
     private LinkedList<Integer> mitarbeiter;
     private Kundendatenbank kundendatenbank;
 
-    public DatenbankProxy(LinkedList<Integer> mitarbeiter, Kundendatenbank Kundendatenbank) {
+    public DatenbankProxy(LinkedList<Integer> mitarbeiter, Kundendatenbank kundendatenbank) {
         this.mitarbeiter = mitarbeiter;
         this.kundendatenbank = kundendatenbank;
         eingeloggt = false;
